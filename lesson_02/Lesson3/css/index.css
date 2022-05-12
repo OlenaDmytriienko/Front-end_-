@@ -15,6 +15,7 @@ body {
           
 .portfolio {
           padding: 102px 88px;
+          padding-left: 500px;
 } 
 .portfolio_roli {
           font-weight: bold;
@@ -23,12 +24,13 @@ body {
           margin-bottom: 19px;
           color: #000000;
           font-weight: 700;
+          padding-left: 900px;
 } 
 
 .portfolio__name {
           font-style: normal;
           font-weight: 700;
-          font-size: 45px;
+          font-size: 27px;
           line-height: 55px;
           color: #000000;
           margin-bottom: 8px;
@@ -47,6 +49,19 @@ body {
           line-height: 20px;
           color: #595959; 
           padding: 100px;  
+          padding-left: 500px;
+}
+
+.portfolio__front {
+padding-left: 500px;
+margin-top: 0px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 27px;
+/* identical to box height */
+
 }
 .project__name{
           
@@ -87,6 +102,7 @@ height: 213px;
 width: 262px;
 size: 20px;
 font-size: 20px;
+padding-left: 500px;
 } 
 
 .portfolio__sub-title-red {
@@ -102,13 +118,25 @@ font-size: 20px;
           font-size: 12px;
           line-height: 15px;
           /* identical to box height */
-          
+          padding-left: 500px;
           margin: -35px;
           color: #A8A8A8;
 } 
+.portfolio__role2 {
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          /* identical to box height */
+        
+          margin: -35px;
+          color: #A8A8A8;
+} 
+
 li {
 line-height: 20px; 
-margin: -35px } 
+margin: -35px  } 
 .portfolio__list
 {
 width: 509px;
@@ -119,16 +147,32 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 /* or 171% */
+padding-left: 500px;
+          
 color: #595959;
 } 
-.portfolio__manager{
-          margin-top: 20px;
+
+.portfolio__list_manager {
+          width: 509px;
+          height: 120px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
           font-size: 14px;
-          color: #000000;;
+          line-height: 24px;
+          /* or 171% */
+          padding-left: 500px;
+                    
+          color: #595959;} 
+
+.portfolio__manager{
+          margin-top: 190px;
+          font-size: 10px;
+          color: #000000;
 } 
 .portfolio__manager_2{
           margin-top: -50px;
-          font-size: 14px;
+          font-size: 10px;
           color: #000000;;
 } 
 .portfolio_education{
@@ -139,9 +183,10 @@ font-weight: 700;
 font-size: 22px;
 line-height: 27px;
 /* identical to box height */
-
+padding-left: 500;
 margin-top: -43px;
 color: #000000;
+margin-left: 500;
 
 } 
 p1{
@@ -149,6 +194,36 @@ font-weight: 700;
 font-size: 16px;
 line-height: 20px;
 /* identical to box height */
-
+padding-left: 500;
+margin-left: 500;
 color: #FB6D3A;
 } 
+aside {
+position: absolute;
+width: 370px;
+height: 1319px;
+
+background: #1E2939;
+}
+.portfolio_aside {
+          font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.portfolio_aside-points {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+color: #FFFFFF;}
+.main {
+          margin-left: 500px;
+}
