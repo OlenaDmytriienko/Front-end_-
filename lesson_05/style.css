@@ -1,0 +1,197 @@
+* {
+padding: 0px;
+margin: 0px;
+}
+:root {
+          --main-title: #070707;
+          --main--font: 'Open Sans', sans-serif;;
+}
+.body {font-family: var(--main-font);
+}
+
+.container {
+          width: 100%;
+          max-width:  943px;
+          margin: 50px auto;
+}
+.header__menu {
+          margin-bottom: 33px;
+          padding: 29px 0px;
+          border-bottom: 1px solid #828282;
+}
+
+.header__menu-item {
+          list-style: none;  
+}
+
+.header__menu-container {
+display: flex;
+justify-content: center;
+gap: 40px;
+}
+
+
+
+.header__menu-title {
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: var(--main-title);
+text-decoration: none;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.header__title{
+          font-family: 'Open Sans' ;
+          font-weight: 700;
+          font-size: 47px;
+          line-height: 64px;
+          margin-bottom: 38px;
+          color: var(--main-title);
+}
+
+.header__img {
+          width: 943px;
+          height: 387px;
+          background-image: url(./img/header.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-bottom: 100px;
+}
+.aboutme { padding-left: 0px;
+          background: #F6F6F6;
+          position: absolute;
+width: 100%;
+height: 517px;
+left: 0px;
+top: 699px;
+
+}
+
+.aboutme__cv-title { 
+          font-style: normal;
+          font-weight: 700;
+          font-size: 34px;
+          line-height: 46px;
+          text-align: center;
+          margin-top:70px;
+          /* Black */
+          color: #070707;
+
+}
+
+.aboutme__cv-img {
+          display: block;
+          text-align: center;
+
+}
+.aboutme__cv-title1 { 
+          font-style: normal;
+          font-weight: 700;
+          font-size: 34px;
+          line-height: 46px;
+          text-align: center;
+          margin-top:70px;
+          /* Black */
+          color: #070707;
+          padding-left: 0px;
+}
+
+.aboutme__cv-main { 
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+
+/* Black */
+color: #070707;
+
+}
+.aboutme__cv-main-container {
+          display: block;
+          text-align: center;
+
+}
+.aboutme__cv-main-star {
+position: relative;
+}
+.aboutme__cv-main1 { 
+          font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+
+/* Black */
+color: #070707;
+padding-left: 430px;
+
+}
+
+.aboutme__1 { padding-left: 250px;
+          padding-bottom: 135px;
+          position: absolute;
+          
+}
+
+
+.aboutme__2 { padding-left: 0px;
+          padding-bottom: 135px;
+          padding-top: 500px;
+          width: 100%;
+          
+          
+}
+.aboutme__3 { padding-left: 0px;
+          padding-bottom: 135px;
+          background: #F6F6F6;
+          width: 100%;
+          
+}
+.aboutme__4 { padding-left: 0px;
+          padding-bottom: 135px;
+          width: 100%;
+}
+          
+          
+.button {
+          background: #070707;
+          border: 1px solid #070707;
+          outline: none;
+           display: inline-block;	
+          box-sizing: border-box;
+           padding: 0 25px;
+          margin: 0 15px 15px 0;
+          outline: none;
+          border: 1px solid #fff;
+          border-radius: 50px;
+          height: 46px;
+          line-height: 46px;
+          font-size: 14px;
+          font-weight: 600;
+          text-decoration: none;
+          color: #fff;
+          background-color: #070707;
+          box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+          cursor: pointer;
+          user-select: none;
+          appearance: none;
+          touch-action: manipulation;  
+          vertical-align: top;
+          transition: box-shadow 0.2s;
+          transition: all 0.2s;
+          box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+          margin-left:515px;
+}
+
+.contacts_img {
+          display: block;
+          text-align: center;
+ }
+.contacts_items {
+          display: block;
+          text-align: center;
+}
+          
