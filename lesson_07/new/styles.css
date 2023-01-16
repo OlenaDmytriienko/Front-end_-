@@ -1,0 +1,29 @@
+
+*
+{
+  background-color: #C4C4C4;
+  box-sizing: border-box; 
+  }
+
+.box{ display: flex;
+ background: #DC3F3F;
+ margin: 0 0 80px;
+ width: 1162px;
+height: 165px;
+}
+.item { display: flex;
+          background: #DC3F3F;
+          margin: 0 0 80px;
+          width: 1162px;
+         height: 165px;
+         }
+
+.item:nth-child(3){ background: #DC3F3F;
+        }
+.item-second
+{display: inline-block;
+margin: 0 auto;
+height: 165px;
+width:200px;
+background-color: #412A2A;
+}

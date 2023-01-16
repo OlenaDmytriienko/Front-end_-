@@ -1,0 +1,31 @@
+
+*{
+  background-color: #C4C4C4;
+  box-sizing: border-box; 
+  }
+  .box{ display: flex;
+          background: #DC3F3F;
+          margin: 0 0 59px;
+          width: 1162px;
+         height: 165px;
+     
+         }
+.item{ 
+          width: 1162px;
+          height: 459px;
+          background: #DC3F3F;
+          margin-bottom: 34px;
+}
+.item2 {
+         
+          width: 1066px;
+          height:165px;
+          background: #412A2A;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 54px 50px 50px;
+         
+}
+{}
+{}
